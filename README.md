@@ -2,18 +2,17 @@
 Projektmunka leírások
 ## Általános feladatok
 - Feladatok szétosztása
-- Projektnapló vezetés
 - GitHub elkészítése
     - Readme.md (ide kerül a műszaki leírás)
     - források gyűjtése (`sources` mappa)
 - Kapcsolási rajzok (fritzing)
-    - Sematikus rajz
-    - Bekötési rajz
+    - Sematikus rajz (`shematic` mappa)
 - Áramkör megépítése a próba panelen
-- Program fejlesztés
+- Program fejlesztés (`sourcesCode` mappa)
     - Program elkészítése kis lépések módszerével:
         - Módosítás - Tesztelés ciklus
-- Prezentáció készítés a feladatról
+- Prezentáció készítés a feladatról (`projeknev.ppt`)
+- Videó felvétel a feladatról
 - Prezentáció megtartása
     - Élő előadás
     - Videofelvétel
@@ -21,15 +20,10 @@ Projektmunka leírások
 - Értékelés
     - Felelés (teszt)    
 
-
-### Projektnapló vezetés
-
-### 
-
-# Fényerő szabályzás potméterrel
+# Fényerő szabályzás potméterrel: BrightnessControlWithPot
+- Projekt név: fenyeropoti
 ## Csoporttagok
-- Nagy Ferenc (csoportvezető)
-- Polyák Alex János
+- 
 ## Feladat leírása
 Pulzusszélesség alapon működő ledes fényerő szabályzó modell elkészítése.
 - A ledet a GPIO PWM üzemmódban hajtsa meg közvetlenül egy megfelelő korlátozó ellenállással
@@ -39,10 +33,9 @@ Pulzusszélesség alapon működő ledes fényerő szabályzó modell elkészít
     - Az áramtartomány [0, 100] tartományra normálása
     - A kitöltési tényező folymatos állítása a normált tartomány segítségével.
 
-# Fényerő szabályzás nyomógombbal
+# Fényerő szabályzás nyomógombbal: BrightnessControlWithButton
 ## Csoporttagok
-- Molnár Krisztián (csoportvezető)
-- Ledacs-Kiss Bence
+- 
 ## Feladat leírása
 Pulzusszélesség alapon működő ledes fényerő szabályzó modell elkészítése.
 - A ledet a GPIO PWM üzemmódban hajtsa meg közvetlenül egy megfelelő korlátozó ellenállással
@@ -54,9 +47,8 @@ Pulzusszélesség alapon működő ledes fényerő szabályzó modell elkészít
     - A kapcsolók egyedi vagy folamatos nyomásának impulzus számlálsa [0, 100] tartományra limitálva.
     - A kitöltési tényező folymatos állítása a tartomány segítségével.
 
-# Távolságmérő
-Fehér György Márk
-Juhász Gergő
+# Távolságmérő: DistanceMeter
+
 
 ## Feladat leírása
 
@@ -68,10 +60,9 @@ A távolságmérő egy nyomógomb segítségével egy memóriába tárolja el a 
 - 4. nyomógomb: Az utolsó két mérési adat alapján számoljon területet
 - 5. nyomógomb: Az utolsó három mérési adat alapján számoljon térfogatot
 
-# Hőmérséklet szabályzó
+# Hőmérséklet szabályzó: TemperatureController
 ## Csoporttagok
-- Jáger Kristóf (csoportvezető)
-- Suki Zsolt
+- 
 ## Feladat leírása
 - A [DS18B20+](https://malnapc.hu/ds18b20) 1-wire (egyvezetékes) digitális hőmérséklet érzékelők egy vezetékre felfűzött (4-5 db) láncának segítségével szimulálja, hogy ezek különböző helyiségek, dolgok hőmérsékletét mérik.
 - Egy kapcsoló segítségvével lehessen váltatni, hogy melyik érzékelő hőmérsékletét mutatja a 7 szegmenses kijelző: [A881 0.56 INCH CLOCK DISPLAY W/I2C BACKPACK - BLUE](https://malnapc.hu/a881-0-56-inch-clock-display-wi2c-backpack-blue)
@@ -81,10 +72,9 @@ A távolságmérő egy nyomógomb segítségével egy memóriába tárolja el a 
 - Programzó gombok:
     - 
 
-# U,I,P,R mérő
+# U,I,P,R mérő: upirMeasuring
 ## Csoporttagok
-- Hajdu István (csoportvezető)
-- Kovács Levente
+- 
 ## Feladat leírása
 A [INA219 DC IUP mérő](https://malnapc.hu/a904-ina219-high-side-dc-current-sensor-aram-szenzor) árammérő szenzor segítségével készítsen egy:
 - Feszülség
@@ -96,10 +86,8 @@ mérő eszközt, ami egy 7 szegmenses kijelzőn mutatja az értékeket: [A881 0.
 Egy nyomógomb segítségével lehessen váltani a különböző funkciók között.
 A különböző funkciókhoz legyen egy dugalj elrendezés, ami meghatározza, hogy mit lehet vele mérni.
 
-# Bicikli lámpa RGB leddel
-## Csoporttagok
-- Fehér Zsolt Dorián (csoportvezető)
-- Kocsis Bence
+# Bicikli lámpa RGB leddel: BicycleLight
+- 
 ## Feladat leírása
 Az alkatrész csomagban található [RGB led(ek)](https://www.hestore.hu/prod_10037597.html) segítségével szimuláljon egy biciklilámpát
 - 1. kapcsoló: Első vagy hátsó lámpa üzemmód
@@ -114,11 +102,9 @@ Az alkatrész csomagban található [RGB led(ek)](https://www.hestore.hu/prod_10
     2. Villogó vörös
     3. Kikapcsolva 
 
-# Közlekedési lámpa
+# Közlekedési lámpa: TrafficLights
 ## Csoporttagok
-- Medgyes Csaba (csoportvezető)
-- Oláh Péter
-- Kovács János
+- 
 ## Feladat leírása
 Egy kereszteződés autóforgalmi és gyalogos átkelőhely közlekedési lámpáit szimuláló rendszer elkészítése 5 megfelelő színű ledsorral.
 - [A feladat részletes leírása](http://labtoll.hu/raspberry/algoritmus.html#algoritmus)
