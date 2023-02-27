@@ -1,5 +1,5 @@
 # Projektmunka_1_2022-23_10d
-Projektmunka leírások
+Projektmunka leírások 2023
 ## Általános feladatok
 - Feladatok szétosztása
 - GitHub elkészítése
