@@ -3,7 +3,8 @@ Projektmunka leírások
 ## Általános feladatok
 - Feladatok szétosztása
 - GitHub elkészítése
-    - Readme.md (ide kerül a műszaki leírás)
+    - Readme.md (ide kerül a műszaki leírás angolul)
+    - ReadmeHu.md (ide kerül a műszaki leírás magyarul)
     - források gyűjtése (`sources` mappa)
 - Kapcsolási rajzok (fritzing)
     - Sematikus rajz (`shematic` mappa)
