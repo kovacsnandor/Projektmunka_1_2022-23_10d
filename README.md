@@ -12,14 +12,28 @@ Projektmunka leírások 2023
 - Program fejlesztés (`sourcesCode` mappa)
     - Program elkészítése kis lépések módszerével:
         - Módosítás - Tesztelés ciklus
-- Prezentáció készítés a feladatról (`projeknev.ppt`)
-- Videó felvétel a feladatról
+- Prezentáció készítés a feladatról (`presentations/projeknev.ppt`)
+- Videó felvétel, fotó a feladatról: `presentations/projektnev.jpg` mappába
 - Prezentáció megtartása
     - Élő előadás
     - Videofelvétel
     - Előadások megbeszélése
 - Értékelés
-    - Felelés (teszt)    
+    - Felelés (teszt)
+# Feladat ütemezés
+## 2023.03.03-05 kapcsolási razj
+- Otthoni munka: az egyik csapattag
+- A csoport készítse el a repóját (a csapatkapitány githubjába)
+- Mindent a github-ra kell elkészíteni
+- Fritzing program telepítése az otthoni gépre
+- Készüljön el a kapcsolási rajz: fritzing, képfájl
+- A kapcsolási rajzok kerüljenenk a `shematic` mappába
+## 2023.03.06-13 áramkör megépítése
+- Csoportmunka
+- A régi áramkör lebontása
+- Alkatrészek összegyűjtése
+- Az áramkör összerakása a próbapanelen a kapcsolási razj alapján
+- Fotó készítése a kész panelről
 
 # Fényerő szabályzás potméterrel: BrightnessControlWithPot
 ![Fényerő szabályzás potméterrel](./kapcsol%C3%A1sirajzok/f%C3%A9nyer%C5%91Potm%C3%A9ter/F%C3%A9nyer%C5%91%20potm%C3%A9terrel.png)
