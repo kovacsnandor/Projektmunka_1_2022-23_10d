@@ -22,9 +22,9 @@ Projektmunka leírások 2023
     - Felelés (teszt)    
 
 # Fényerő szabályzás potméterrel: BrightnessControlWithPot
-- Projekt név: fenyeropoti
+![Fényerő szabályzás potméterrel](./kapcsol%C3%A1sirajzok/f%C3%A9nyer%C5%91Potm%C3%A9ter/F%C3%A9nyer%C5%91%20potm%C3%A9terrel.png)
 ## Csoporttagok
-- 
+- Bodzsár Máté János, Szűcs Péter Noel
 ## Feladat leírása
 Pulzusszélesség alapon működő ledes fényerő szabályzó modell elkészítése.
 - A ledet a GPIO PWM üzemmódban hajtsa meg közvetlenül egy megfelelő korlátozó ellenállással
@@ -35,8 +35,9 @@ Pulzusszélesség alapon működő ledes fényerő szabályzó modell elkészít
     - A kitöltési tényező folymatos állítása a normált tartomány segítségével.
 
 # Fényerő szabályzás nyomógombbal: BrightnessControlWithButton
+![Fényerő szabályzás nyomógombbal](./kapcsol%C3%A1sirajzok/F%C3%A9nyer%C5%91Nyom%C3%B3gomb/F%C3%A9nyer%C5%91%20nyom%C3%B3gombbal.png)
 ## Csoporttagok
-- 
+- Balázs Szidónia, Jakab Adrienn
 ## Feladat leírása
 Pulzusszélesség alapon működő ledes fényerő szabályzó modell elkészítése.
 - A ledet a GPIO PWM üzemmódban hajtsa meg közvetlenül egy megfelelő korlátozó ellenállással
@@ -49,10 +50,11 @@ Pulzusszélesség alapon működő ledes fényerő szabályzó modell elkészít
     - A kitöltési tényező folymatos állítása a tartomány segítségével.
 
 # Távolságmérő: DistanceMeter
-
+![Távolságmérő](./kapcsol%C3%A1sirajzok/T%C3%A1vols%C3%A1gm%C3%A9r%C5%91/T%C3%A1vols%C3%A1g%20m%C3%A9r%C5%91.png)
+## Csoporttagok
+- Nagy Dániel Csaba	Molnár Kristóf
 
 ## Feladat leírása
-
 Ultrahangos távolságmérő készítése az [ULTRAHANGOS TÁVOLSÁGSZENZOR HC-SR04-4P](https://malnapc.hu/ultrahangos-tavolsagszenzor-hc-sr04-4p) szenzor segítségével.
 A távolságmérő egy nyomógomb segítségével egy memóriába tárolja el a beadott távolságokat, valmint mutassa egy hétszegmenses kijelzőn: [A881 0.56 INCH CLOCK DISPLAY W/I2C BACKPACK - BLUE](https://malnapc.hu/a881-0-56-inch-clock-display-wi2c-backpack-blue)
 - 1. nyomógomb: távolság rögzítése
@@ -62,8 +64,9 @@ A távolságmérő egy nyomógomb segítségével egy memóriába tárolja el a 
 - 5. nyomógomb: Az utolsó három mérési adat alapján számoljon térfogatot
 
 # Hőmérséklet szabályzó: TemperatureController
+![Hőmérséklet szabályzó](./kapcsol%C3%A1sirajzok/H%C5%91m%C3%A9rs%C3%A9klet%20m%C3%A9r%C5%91/H%C5%91m%C3%A9rs%C3%A9klet%20m%C3%A9r%C5%91.png)
 ## Csoporttagok
-- 
+- Balogh Bálint Ágoston, Botka Fanni, Barta Marcell 
 ## Feladat leírása
 - A [DS18B20+](https://malnapc.hu/ds18b20) 1-wire (egyvezetékes) digitális hőmérséklet érzékelők egy vezetékre felfűzött (4-5 db) láncának segítségével szimulálja, hogy ezek különböző helyiségek, dolgok hőmérsékletét mérik.
 - Egy kapcsoló segítségvével lehessen váltatni, hogy melyik érzékelő hőmérsékletét mutatja a 7 szegmenses kijelző: [A881 0.56 INCH CLOCK DISPLAY W/I2C BACKPACK - BLUE](https://malnapc.hu/a881-0-56-inch-clock-display-wi2c-backpack-blue)
@@ -74,8 +77,9 @@ A távolságmérő egy nyomógomb segítségével egy memóriába tárolja el a 
     - 
 
 # U,I,P,R mérő: upirMeasuring
+![U,I,P,R mérő](./kapcsol%C3%A1sirajzok/U%2CI%2CP%2CR%20m%C3%A9r%C5%91/%C3%81ramm%C3%A9r%C5%91%20kapcs_schem.png)
 ## Csoporttagok
-- 
+- Sebők Bence, Szabó Zoltán
 ## Feladat leírása
 A [INA219 DC IUP mérő](https://malnapc.hu/a904-ina219-high-side-dc-current-sensor-aram-szenzor) árammérő szenzor segítségével készítsen egy:
 - Feszülség
@@ -88,7 +92,9 @@ Egy nyomógomb segítségével lehessen váltani a különböző funkciók köz�
 A különböző funkciókhoz legyen egy dugalj elrendezés, ami meghatározza, hogy mit lehet vele mérni.
 
 # Bicikli lámpa RGB leddel: BicycleLight
-- 
+![Bicikli lámpa RGB leddel](./kapcsol%C3%A1sirajzok/Bicikli/led%20kapcsolasi%20rajz%202.png)
+## Csoporttagok
+- Suki Zsolt, Pap Balázs
 ## Feladat leírása
 Az alkatrész csomagban található [RGB led(ek)](https://www.hestore.hu/prod_10037597.html) segítségével szimuláljon egy biciklilámpát
 - 1. kapcsoló: Első vagy hátsó lámpa üzemmód
@@ -99,13 +105,14 @@ Az alkatrész csomagban található [RGB led(ek)](https://www.hestore.hu/prod_10
     2. Fehér gyengébb fény
     3. Kikapcsolva
 - Hátsó lámpa üzemmód állapotok
-    1. Folyamtos vörös
+    1. Folyamatos vörös
     2. Villogó vörös
     3. Kikapcsolva 
 
 # Közlekedési lámpa: TrafficLights
+![Közlekedési lámpa](./kapcsol%C3%A1sirajzok/K%C3%B6zleked%C3%A9si%20l%C3%A1mpa/K%C3%B6zleked%C3%A9si%20l%C3%A1mpa.png)
 ## Csoporttagok
-- 
+- Szurmai Bence Zsolt, Nagy Dominik Patrik, Seres László
 ## Feladat leírása
 Egy kereszteződés autóforgalmi és gyalogos átkelőhely közlekedési lámpáit szimuláló rendszer elkészítése 5 megfelelő színű ledsorral.
 - [A feladat részletes leírása](http://labtoll.hu/raspberry/algoritmus.html#algoritmus)
