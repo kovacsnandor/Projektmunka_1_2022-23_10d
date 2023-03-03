@@ -1,0 +1,62 @@
+https://github.com/chrisb2/pi_ina219
+
+Telepítés: 
+sudo pip3 install pi-ina219
+
+I2C Enabla a Raspberry-ben
+
+i2c ellenőrzés
+sudo i2cdetect -y 1
+
+
+#!/usr/bin/env python
+from ina219 import INA219
+from ina219 import DeviceRangeError
+
+SHUNT_OHMS = 0.1
+
+
+def read():
+    ina = INA219(SHUNT_OHMS)
+    ina.configure()
+
+    print("Bus Voltage: %.3f V" % ina.voltage())
+    try:
+        print("Bus Current: %.3f mA" % ina.current())
+        print("Power: %.3f mW" % ina.power())
+        print("Shunt voltage: %.3f mV" % ina.shunt_voltage())
+    except DeviceRangeError as e:
+        # Current out of device range with specified shunt resistor
+        print(e)
+
+
+if __name__ == "__main__":
+    read()
+
+
+---------------------
+from ina219 import INA219
+from ina219 import DeviceRangeError
+ina = INA219(shunt_ohms=0.1,
+	max_expected_amps = 0.6,
+	adress=0x40)
+
+ina.configure(voltage_range=ina.RANGE_16V,
+	gain=ina.GAIN_AUTO,
+	bus_adc=ina.ADC_128SAMP,
+	shunt_adc=ina.ADC_128SAMP)
+
+
+try:
+	while true:
+		u = ina.volatge()
+		i = ina.current()
+		p = ina.power()
+		print("...")
+		ina.sleep()
+    		time.sleep(60)
+    		ina.wake()
+
+
+    
+
