@@ -83,12 +83,16 @@ A távolságmérő egy nyomógomb segítségével egy memóriába tárolja el a 
 - Balogh Bálint Ágoston, Botka Fanni, Barta Marcell 
 ## Feladat leírása
 - A [DS18B20+](https://malnapc.hu/ds18b20) 1-wire (egyvezetékes) digitális hőmérséklet érzékelők egy vezetékre felfűzött (4-5 db) láncának segítségével szimulálja, hogy ezek különböző helyiségek, dolgok hőmérsékletét mérik.
+    - [Párhuzamosan kötött hőmérséklet mérők használata](https://www.hackster.io/vinayyn/multiple-ds18b20-temp-sensors-interfacing-with-raspberry-pi-d8a6b0)
 - Egy kapcsoló segítségvével lehessen váltatni, hogy melyik érzékelő hőmérsékletét mutatja a 7 szegmenses kijelző: [A881 0.56 INCH CLOCK DISPLAY W/I2C BACKPACK - BLUE](https://malnapc.hu/a881-0-56-inch-clock-display-wi2c-backpack-blue)
 - A hőérzékelőknél legyen egy led, ami mutatja, melyik hőmérséklete van éppen kijelezve
 - A kiválasztott hőrzékelő a beprogramozott hőmérséklet határ alatt kapcsolja be a fűtést, felett pedig ki. A hiszterézis legyen 0.5 °C.
 - Legyen porgramozható a hőmérséklet határ.
 - Programzó gombok:
-    - 
+    - Szoba választó gomb
+        - Ezzel választjuk ki, hogy melyik szoba hőérzékelője vezérelje a fűtést
+    - Hőmérséklet határ beállító gomb
+        - Ezzel lehet a hőmérsékleti határt beállítani, hol kapcsoljon ki-be a kaszán
 
 # U,I,P,R mérő: upirMeasuring
 ![U,I,P,R mérő](./kapcsol%C3%A1sirajzok/U%2CI%2CP%2CR%20m%C3%A9r%C5%91/%C3%81ramm%C3%A9r%C5%91%20kapcs_schem.png)
