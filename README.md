@@ -35,6 +35,24 @@ Projektmunka leírások 2023
 - Az áramkör összerakása a próbapanelen a kapcsolási razj alapján
 - Fotó készítése a kész panelről
 
+## 2023.03.13-31 programozás, dokumentálás
+- A tervek alapján fokozatosan elkészíteni a programot
+- Tesztelés, kipróbálás
+- Áttekinteni és megérteni a programot
+- A program dokumentálása
+- Videó, fotó a projektről
+
+## 2023.04.31-21 Előadás elkészítés
+1. Mi ez a szekezet
+    - videó vetítése
+    - mi a techonógiai környezet
+2. Kapcsolási rajz
+3. Hogy működik
+    - kiemelve kódrészleteket
+
+
+
+
 # Fényerő szabályzás potméterrel: BrightnessControlWithPot
 ![Fényerő szabályzás potméterrel](./kapcsol%C3%A1sirajzok/f%C3%A9nyer%C5%91Potm%C3%A9ter/F%C3%A9nyer%C5%91%20potm%C3%A9terrel.png)
 ## Csoporttagok
