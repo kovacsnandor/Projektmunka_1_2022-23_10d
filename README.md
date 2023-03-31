@@ -46,6 +46,7 @@ Projektmunka leírások 2023
 1. Mi ez a szekezet
     - videó vetítése
     - mi a techonógiai környezet
+    - ki mit csinált
 2. Kapcsolási rajz
 3. Hogy működik
     - kiemelve kódrészleteket
